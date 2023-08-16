@@ -192,7 +192,7 @@ class AvroModel:
         return config
 
     @classmethod
-    def fake(cls: Type[CT], **data: Dict[str, Any]) -> CT:
+    def fake(cls: Type[CT], **data: Any) -> CT:
         """
         Creates a fake instance of the model.
 
